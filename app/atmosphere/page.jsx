@@ -44,14 +44,14 @@ const page = () => {
         <div className="lg:w-1/2 flex justify-end">
           <div className="relative h-64 w-full bg-gray-800 rounded-lg overflow-hidden">
             <ReactPlayer
-              url="https://www.example.com/video.mp4" // Replace with your video URL
+              url="/1 Atmosphere.mp4" // Replace with your video URL
               className="absolute inset-0"
               width="100%"
               height="100%"
               controls
               playing={false} // You can control auto-play, etc.
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
             <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
               <div>
                 <h3 className="text-lg font-semibold">Earth's Atmosphere</h3>
@@ -60,7 +60,7 @@ const page = () => {
               <Button variant="secondary" size="sm" className="text-xs px-2 py-1">
                 Play
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
