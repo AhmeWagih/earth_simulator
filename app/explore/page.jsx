@@ -5,8 +5,8 @@ import Image from 'next/image';
 const spheres = [
   { name: 'Atmosphere', link: 'atmosphere' },
   { name: 'Hydrosphere', link: 'hydrosphere' },
-  { name: 'Lithosphere', link: 'lithosphere' },
-  { name: 'Biosphere', link: 'biosphere' }
+  { name: 'Biospheres', link: 'biospheres' },
+  { name: 'Geosphere', link: 'geosphere' }
 ];
 const page = () => {
   return (

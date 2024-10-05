@@ -51,16 +51,7 @@ const page = () => {
               controls
               playing={false} // You can control auto-play, etc.
             />
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
-            <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
-              <div>
-                <h3 className="text-lg font-semibold">Earth's Atmosphere</h3>
-                <p className="text-sm text-gray-300">Layers and composition</p>
-              </div>
-              <Button variant="secondary" size="sm" className="text-xs px-2 py-1">
-                Play
-              </Button>
-            </div> */}
+            
           </div>
         </div>
       </div>
