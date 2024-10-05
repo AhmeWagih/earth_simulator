@@ -11,20 +11,20 @@ const page = () => {
         <div className="lg:w-1/2 space-y-2">
           <h1 className="text-3xl font-bold">Hydrosphere</h1>
           <p className="text-sm text-gray-300">
-          The hydrosphere refers to all the water on Earth, encompassing various forms such as liquid, solid (ice), and vapor. It includes oceans, seas, rivers, lakes, glaciers, groundwater, and atmospheric moisture. The hydrosphere interacts with other Earth systems, including the atmosphere, biosphere, and geosphere, and plays a fundamental role in regulating climate and supporting life.
+            The hydrosphere refers to all the water on Earth, encompassing various forms such as liquid, solid (ice), and vapor. It includes oceans, seas, rivers, lakes, glaciers, groundwater, and atmospheric moisture. The hydrosphere interacts with other Earth systems, including the atmosphere, biosphere, and geosphere, and plays a fundamental role in regulating climate and supporting life.
           </p>
 
           <h2 className="text-xl font-semibold text-yellow-400">Basic Components</h2>
           <p className="text-sm">
-          Oceans and Seas
+            Oceans and Seas
           </p>
 
           <h2 className="text-xl font-semibold text-yellow-400">Layers</h2>
           <p className="text-sm">
-          Cover about 71% of the Earth’s surface and contain about 97% of the planet's total water.
-Oceans regulate global climate by absorbing and redistributing heat from the sun.
-Ocean currents (like the Gulf Stream) move warm and cold water around the planet, influencing weather patterns.
-Freshwater (Lakes, Rivers, Groundwater)
+            Cover about 71% of the Earth’s surface and contain about 97% of the planet's total water.
+            Oceans regulate global climate by absorbing and redistributing heat from the sun.
+            Ocean currents (like the Gulf Stream) move warm and cold water around the planet, influencing weather patterns.
+            Freshwater (Lakes, Rivers, Groundwater)
           </p>
           <ul className="text-sm list-disc list-inside">
             <li>Troposphere</li>
@@ -54,7 +54,7 @@ Freshwater (Lakes, Rivers, Groundwater)
               controls
               playing={false} // You can control auto-play, etc.
             />
-            
+
           </div>
         </div>
       </div>
