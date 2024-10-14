@@ -68,10 +68,6 @@ html {
   scroll-behavior: smooth;
 }
 
-canvas {
-  height: 550px;
-}
-
 .webgl {
   position: fixed;
   top: 0;
@@ -90,4 +86,24 @@ canvas {
 .animate-fadeIn {
   opacity: 1;
   animation: fadeIn 1s ease-in-out;
+}
+
+.webgl {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.control-panel {
+  position: absolute;
+  top: 70px; 
+  right: 20px; 
+  z-index: 1000; 
+  border-radius: 10px;
+}
+.control-panel .lil-gui {
+  border-radius: 8px !important; 
 }

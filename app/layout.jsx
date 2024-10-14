@@ -1,20 +1,7 @@
-import localFont from 'next/font/local';
-import './globals.css';
-// import Navbar from '@/components/not-used-yet/Navbar';
 import StarsCanvas from '@/components/shared/StarBack';
 import Navbar from '@/components/shared/Navbar';
 import Footer from '@/components/shared/Footer';
-
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
+import './globals.css';
 
 export const metadata = {
   title: 'Nasa Space App',
@@ -25,12 +12,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased bg-black  overflow-x-hidden`}
+        className={`antialiased bg-black  overflow-x-hidden`}
       >
         <StarsCanvas />
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
